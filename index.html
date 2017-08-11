@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Daily form</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="pf-form">
+	<header class="pf-form__header cf">
+	<div class="pf-form__header-icon">
+		<img class="pf-form__img-header" src="img/icon-header.svg" alt="icon">
+	</div>
+	<div class="pf-form__header-title">
+		<p class="pf-form_header-titles">Create your free account</p>
+	</div>	
+	<div class="pf-form__header-text">
+		<p>Come and join our cool and amazing community, fill in your details
+to get started. Already have an account? <a href="#">Log in.</a></p>
+	</div>
+	</header>
+	<form action="/" method="post">
+		<fieldset class="pf-form__data">
+		<input class="pf-form__first-name" type="text" name="first name" placeholder="First name" required="required">
+		<input class="pf-form__last-name" type="text" name="last name" placeholder="Last name" required="required">
+		<input class="pf-form__email" type="text" name="email" placeholder="Email address" required="required">
+		<input class="pf-form__password" type="text" name="Password" placeholder="Password" required="required">
+		</fieldset>
+		<fieldset class="pf-form__buttons">
+			<button class="pf-form__button">Sign up for free</button>
+			<p class="pf-form__button-text">By clicking on “Sign up for free”, you agree to the <a href="#">Terms of Service </a>and the <a href="#">Privacy Policy</a></p>
+		</fieldset>
+	</form>	
+	</section>
+</body>
+</html>
